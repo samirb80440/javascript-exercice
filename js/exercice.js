@@ -1,8 +1,7 @@
-var prenom,nom; 
-prenom=prompt("Ecrire prénom"); 
- while ( prenom <=5) 
- {    console.log("le nombre de prenom est de"+prenom+"est"+nom)          
- prenom++; 
+var tableau = ["Paul", "Pierre", "Anne", "Sophie"];
 
-} 
-console.log("fin de la boucle"); alert=(nom)
+for (var i in tableau) 
+{
+    console.log(tableau[i]);
+}
+
