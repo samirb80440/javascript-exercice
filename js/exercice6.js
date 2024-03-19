@@ -1,6 +1,6 @@
 var N,X,Y
-N=prompt("saisie")
-X=prompt("deuxiéme nombre")
+N=prompt("Entrez un nombre")
+X=prompt("Entrez un mutiplicateur")
 for(var i =0;i <=N;i++)
  {Y= N *+X
   console.log(N*+X);
