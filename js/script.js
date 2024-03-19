@@ -6,7 +6,7 @@ if (age<18)
 (
 alert("Mineur")
 )
-else if(age>18)
+else if(age>=18)
 (
 alert("Majeur")
 )
