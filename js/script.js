@@ -10,6 +10,7 @@ else if(age>=18)
 (
 alert("Majeur")
 )
+alert(age)
 
 var a,b,c
 a=prompt("Entrez le premier nombre")
