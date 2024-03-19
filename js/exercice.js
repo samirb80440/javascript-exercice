@@ -2,9 +2,7 @@ var prenom,n
 var myTableau=[];
 for (var i=0; i<100;i++)
 {
-
-
- myTableau[i]=prompt("prenom")
+myTableau[i]=prompt("prenom")
 if(myTableau[i]=="")
 {
    break
