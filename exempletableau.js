@@ -1,6 +1,5 @@
 var myTableau = ["pomme", "poire", "banane", "fraise", "abricot"];
-
-for (var i = 0; i < myTableau.length; i++) 
+for (var fruit in myTableau) 
 {
-   console.log("Fruit : "+myTableau[i]);
+   console.log("Fruit : "+myTableau[fruit]);
 }
