@@ -36,6 +36,8 @@ switch(c)
    c=alert(a/b) ;
    break
    
+   case "0":(c==0)||(d==0)
+   c=alert(erreur)
 
   default:
     c=alert("erreur") ;
