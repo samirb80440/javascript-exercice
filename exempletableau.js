@@ -6,3 +6,5 @@ myTableau[i]=prompt("fruits")
 }
 console.log(myTableau)
 
+
+
