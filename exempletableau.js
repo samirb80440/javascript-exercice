@@ -1,3 +1,6 @@
-var myTableau = ["pomme", "poire", "banane", "fraise", "abricot"]; 
-var nb = myTableau.length ;
-console.log("Le tableau contient "+nb+ "éléments"); // Affiche : 5
+var myTableau = ["pomme", "poire", "banane", "fraise", "abricot"];
+
+for (var i = 0; i < myTableau.length; i++) 
+{
+   console.log("Fruit : "+myTableau[i]);
+}
