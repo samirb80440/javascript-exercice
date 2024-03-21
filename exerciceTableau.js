@@ -24,8 +24,8 @@ image()
 function produit(X,Y){
      X*X*X
      Z=X*Y
-  document.getElementById("ab").innerHTML ="Le cube de " +X+ "est égal à "+X*X*X
-  document.getElementById("ba").innerHTML ="Le produit de "+X+"X"+Y+" est égal à "+Z 
+  document.getElementById("ab").innerHTML ="Le cube de " +X+ " est égal à "+X*X*X
+  document.getElementById("ba").innerHTML ="Le produit de "+X+" x "+Y+" est égal à "+Z 
   console.log(X*X*X)
   console.log(Z)
   return
