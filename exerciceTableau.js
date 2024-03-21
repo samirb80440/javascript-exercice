@@ -13,30 +13,26 @@ function plus(compteur){
 }
 
 let compteur=1;
-compteur= plus(compteur);
+compteur= plus(compteur)
 console.log(compteur)
-
-function produit(X,Y){
-     X*Y
-     X*X*X
-    return (X*Y)
+*/
+function image(Img){
+    t = document.getElementById("Img");
+    t.src="papillon.jpg"
 }
-let X,Y
-X=prompt("Entrez un nombre")
-Y=prompt("Entrez un multiplicateur")
-X,Y=produit(X,Y)
+image()
+function produit(X,Y){
+     X*X*X
+     Z=X*Y
+  document.getElementById("ab").innerHTML ="Le cube de " +X+ "est égal à "+X*X*X
+  document.getElementById("ba").innerHTML ="Le produit de "+X+"*"+Y+" est égal à "+Z 
+    return
+}
+var X,Z,Y
+ X=prompt("Entrez un nombre")
+ Y=prompt("Entrez un multiplicateur")
 console.log(X*X*X)
-console.log(Y)
-calcul=X*X*X
-cube="Le cube de"+X+"est égal à "+calcul
-calcul=X*Y
-résultat="Le prduit de"+X*Y+"est égal à "+calcul
-let texte=
-
-const image= new Image()
- image.src="/home/bedrouni/DEV bedrouni/exercice/javascript/papillon.jpg"
- image.onload= function(){
-document.body.appendChild(image)
- }
- */
+Z=X*Y
+console.log(Z)
+produit(X,Y)
 
