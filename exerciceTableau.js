@@ -46,20 +46,21 @@ function strtok(str1,str2,n)
 str1=strtok
 console.log(strtok (str1, ";", 3))
 */
-var prenom,n
+
 var myTableau=[];
+var total=0
 for (var i=0; i<100;i++)
 {
-myTableau[i]=prompt("prenom")
+myTableau[i]=window.prompt("")
 if(myTableau[i]=="")
-{
+{  myTableau.pop()
    break
 }
+total=total + parseInt(myTableau[i])
 }
-for(var i=0;i<myTableau.length-1 ;i++)
-  {console.log("prenom :"+myTableau[i])}
-  console.log(myTableau.length)
-
-
-
+console.log(myTableau.length)
+console.log(total)
+console.log(total/myTableau.length)
+console.log(myTableau)
+  
  
