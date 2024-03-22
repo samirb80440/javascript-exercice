@@ -21,3 +21,26 @@ let Y=2
 X,Y=produit(X,Y)
 console.log(X,Y)
 */
+/*<!--<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<img  id ="Img" src="" alt="papilon">
+<p id="ab"></p>
+<p id="ba"></p>
+<script src=exerciceTableau.js></script>
+<script>
+    // let texte = "Le cube de " +X+ "est égal à "+X*X*X
+    //    +"Le produit de "+X+"*"+Y+" est égal à "+Z
+
+    // document.getElementById("ab").innerHTML = texte;
+  </script>
+
+</body>
+</html>
+-->
+*/
