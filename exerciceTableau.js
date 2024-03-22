@@ -15,7 +15,7 @@ function plus(compteur){
 let compteur=1;
 compteur= plus(compteur)
 console.log(compteur)
-*/
+
 function image(Img){
     t = document.getElementById("Img");
     t.src="papillon.jpg"
@@ -36,7 +36,7 @@ var X,Z,Y
 produit(X,Y)
 
 
-/*
+
 function strtok(str1,str2,n) 
 {
     str1="robert ;dupont ;amiens ;8000 "
