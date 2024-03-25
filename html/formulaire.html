@@ -10,53 +10,40 @@
 </head>
 
 <body>
-    <header>
-            <h1><sup>*</sup>Contact</h1>
-            <form action="http://bienvu.net/script.php" method="POST">
-                <p>*Ces zones sont obligatoires</p>
-                <fieldset>
-                    <legend>Vos Coordonées</legend>
-                    <br><label for="nom">Votre nom* : </label><input type="text" name="nom" id="nom" required>
-                    <br><label for="prenom">Votre prénom*: </label><input type="text" name="prenom" id="prenom"
+    <fieldset>
+        <legend>Vos Coordonées</legend>
+        <p>*Ces zones sont obligatoires</p>
+                    <label for="Société">Société* : </label><input type="text" name="Société" id="Société" required>
+                    <label for="Personne">Personne à conctacter*: </label><input type="text" name="Personne" id="Personne"
                         required>
-                    <br><label for="Sexe">Sexe* :</label><input type="radio" name="Sexe" value="Féminin" id="Sexe"
-                        required>Féminin
-                    <input type="radio" name="Sexe" value="Masculin" required>Masculin
-                    <br><label for="date">Date de naissance*: </label><input type="date" name="ddn" id="date" required>
-                    <br><label for="Codepostal">Code postal*: </label><input type="text" name="Codepostal"
+                    <label for="Adresse">Adresse:</label><textarea  name="Adresse" id="Adresse" rows="4"cols="30" ></textarea>
+                    <label for="Codepostal">Code postal*: </label><input type="text" name="Codepostal"
                         id="Codepostal" required>
-                    <br><label for="Adresse">Adresse :</label><input type="text" name="Adresse" id="Adresse">
-                    <br><label for="Ville">Ville :</label><input type="text" name="Ville" id="Ville">
-                    <br><label for="Email">Email* :</label><input type="email" name="Email" id="Email" required>
-                </fieldset>
-                <fieldset>
-                    <legend>Votre demande</legend>
-                    <label for="Sujet">Sujet*:</label>
-                    <select id="Sujet">
-                        <option value="Veuillez séléctioner un sujet" selected>Veuillez séléctioner un sujet</option>
-                        <option value="Mes commandes">Mes commandes</option>
-                        <option value="Question sur un produit">Question sur un produit</option>
-                        <option value="Réclamation">Réclamation</option>
+                    <label for="Ville">Ville :</label><input type="text" name="Ville" id="Ville" requ>
+                    <label for="Email">Email* :</label><input type="email" name="Email" id="Email" required>
+                     <label for="Téléphone">Téléphone:</label><input type="tel" name="Téléphone" id="Téléphone"
+                     label for="Sélectionnez">Sélectionnez l'environnement technique du projet:</label><textarea> name=</textarea>
+                        <option value="Choisssez">Choisssez</option>
+                        <option value="Acces">Access</option>
+                        <option value="Java">Java</option>
+                        <option value="Delphi">Delphi</option>
+                        <option value="Windev">Windev</option>
+                        <option value="Visual Basic">Visual Basic</option>
+                        <option value="Power Builder">Power Builder</option>
+                        <option value="Internet">Internet</option>
+                        <option value="Intranet">Intranet</option>
+                        <option value="Window NT">Window NT</option>
+                        <option value="Unix">Unix</option>
+                        <option value="SQL Server">SQL Server</option>
+                        <option value="Oracle">Oracle</option>
                         <option value="Autres">Autres</option>
                     </select>
-                    <br><label for="VotreQuestion">Votre Question*:</label><textarea name="Votre Question" rows="4"
+                    <label for="VotreQuestion">Votre Question*:</label><textarea name="Votre Question" rows="4"
                         cols="25" id="VotreQuestion" required></textarea>
                 </fieldset>
-                <input type="checkbox" name="case" required><label>*J'accepte le traitement informatique de ce
-                    formulaire</label>
-
-                <br><input type="submit" value="Envoyer">
-                <input type="submit" value="Annuler">
-            </form>
+          
         </div>
     </div>
-    <footer>
-        <ul type="disc">
-            <li><a href="PageAcceuil.html">Mention légales</a></li>
-            <li><a href="PageAcceuil.html">Horaires</a></li>
-            <li><a href="PageAcceuil.html">plan du site</a></li>
-        </ul>
-    </footer>
 </body>
 
 </html>
