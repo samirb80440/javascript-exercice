@@ -6,7 +6,7 @@ element.addEventListener("click", function fenetre() {
  alert("Vous avez saisi "+tex);
 })
 
-
+*/
 const random =Math.floor(Math.random()*100)+1
 console.log(random)
 function verif(){
@@ -30,4 +30,4 @@ function verif(){
     else
     alert("Erreur")
 }
-*/
+
