@@ -7,15 +7,26 @@ element.addEventListener("click", function fenetre() {
 })
 */
 
-function math(){
-    var n= Math.random(1,20)
-    tex= document.getElementById("textbox").value
-    alert("nombre"+tex)
-}
+const random =Math.floor(Math.random()*100)+1
+console.log(random)
 function verif(){
-    if(tex>20)
+    tex= document.getElementById("textBox1").value
+    filtreNombre = new RegExp("^[0-9]+$")
+    resultat= filtreNombre.test(tex)
+    console.log(resultat)
+    if(resultat== false){
+    alert("veuillez entrez que de nombre et chiffre")
+    }
+    else if(tex < random && resultat == true){
+        alert("trop petit")
+    }
+   else if(tex > random && resultat==true){
     alert("trop grand")
-    else(tex<1)
-    alert("trop petit")
-   
+   }
+   else if (tex= random && resultat==true)
+{
+    alert("Bon réponse")
+}
+    else
+    alert("Erreur")
 }
