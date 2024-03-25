@@ -1,7 +1,7 @@
 var element = document.getElementById("button1")
 
-element.addEventListener("click", function() {
+element.addEventListener("click", function fenetre() {
 
 
- alert("Vous avez saisi"+);
+ alert("Vous avez saisi ");
 })
