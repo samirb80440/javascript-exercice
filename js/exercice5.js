@@ -1,4 +1,4 @@
-var N,
+/*var N,
 N=prompt("saisir texte")
 let nbVoyelles=0;
 let Voyelles=["a","e","i","o","u","y"];
@@ -11,3 +11,15 @@ if(Voyelles.indexOf(nbVoyelles))
   nbVoyelles++}
   }
   console.log(nbVoyelles)
+  */
+ let mot=prompt("saisir le texte")
+ mot=mot.toLowerCase()
+ let compteurvoyelles=0
+ var Voyelles="aeiouy"
+ for (let i=0;i<mot.length;i++){
+  if(Voyelles.indexOf(mot.substring(i,i+1))!==-1){
+    compteurvoyelles++
+  }
+ }
+ console.log(compteurvoyelles)
+ alert("le mot possède"+ compteurvoyelles+"voyelles.")
